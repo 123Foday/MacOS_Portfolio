@@ -29,6 +29,7 @@ const setUpTextHover = (container, type) => {
         return gsap.to(letter, { 
             duration,
             ease: "power2.out", 
+            overwrite: "auto",
             fontVariationSettings: `'wght' ${weight}`, 
         });
     };
