@@ -10,7 +10,7 @@ const Terminal = () => {
       <h2>Teck Stack</h2>
     </div>
 
-    <div className="techstack">
+    <div className="window-body techstack">
       <p>
         <span className="font-bold">Kai Foday % </span>
         show tech stack

@@ -12,6 +12,7 @@
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.3.2",
+    "clsx": "^2.1.1",
     "dayjs": "^1.11.21",
     "gsap": "^3.15.0",
     "imer": "^0.0.1",
@@ -19,6 +20,7 @@
     "lucide-react": "^1.24.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
+    "react-pdf": "^10.4.1",
     "react-tooltip": "^6.0.8",
     "tailwindcss": "^4.3.2",
     "zustand": "^5.0.14"
