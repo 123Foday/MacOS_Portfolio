@@ -17,22 +17,26 @@ const Text = () => {
         <h2>{name}</h2>
       </div>
 
-      <div className="window-body p-4 space-y-4 bg-white overflow-y-auto max-h-96">
-        {image ? (
-          <div className="w-full">
-            <img src={image} alt={name} className="w-full h-auto object-contain rounded" />
-          </div>
-        ) : null}
+      <div className="window-body overflow-y-auto bg-white p-4">
+        <div className="flex flex-wrap items-start gap-4 md:flex-nowrap">
+          {image ? (
+            <div className="w-full shrink-0 md:w-48 lg:w-56">
+              <img src={image} alt={name} className="h-auto w-full rounded-lg object-cover shadow-sm" />
+            </div>
+          ) : null}
 
-        {subtitle ? <h3 className="text-base font-semibold">{subtitle}</h3> : null}
+          <div className="min-w-0 flex-1 space-y-3">
+            {subtitle ? <h3 className="text-base font-semibold text-gray-800">{subtitle}</h3> : null}
 
-        {Array.isArray(description) && description.length > 0 ? (
-          <div className="space-y-2.5 leading-relaxed text-sm text-gray-800">
-            {description.map((para, idx) => (
-              <p key={idx}>{para}</p>
-            ))}
+            {Array.isArray(description) && description.length > 0 ? (
+              <div className="space-y-2.5 text-sm leading-relaxed text-gray-700">
+                {description.map((para, idx) => (
+                  <p key={idx}>{para}</p>
+                ))}
+              </div>
+            ) : null}
           </div>
-        ) : null}
+        </div>
       </div>
     </>
   );
