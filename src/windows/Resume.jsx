@@ -18,7 +18,7 @@ const Resume = () => {
         <h2>Resume.pdf</h2>
 
         <a 
-          href="files/resume.pdf"
+          href="files/Kai_Resume.pdf"
           download
           className="cursor-pointer"  
           title="Download resume"
@@ -27,7 +27,7 @@ const Resume = () => {
         </a>
       </div>
 
-      <Document file="files/resume.pdf">
+      <Document file="files/Kai_Resume.pdf">
         <Page 
         pageNumber={1} 
         rendedTextLayer 

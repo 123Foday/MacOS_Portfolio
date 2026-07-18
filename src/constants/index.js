@@ -202,6 +202,14 @@ const navLinks = [
       id: 4,
       img: "/images/group.jpg",
     },
+    {
+      id: 5,
+      img: "/images/group-1.jpg",
+    },
+    {
+      id: 6,
+      img: "/images/conference.jpg",
+    },
   ];
   
   export {
@@ -225,7 +233,7 @@ const navLinks = [
       // ▶ Project 1
       {
         id: 5,
-        name: "Nike Ecommerce Website Application",
+        name: "C S Alpha Intro CS Chatbot",
         icon: "/images/folder.png",
         kind: "folder",
         position: "top-10 left-5", // icon position inside Finder
@@ -233,43 +241,41 @@ const navLinks = [
         children: [
           {
             id: 1,
-            name: "Nike Project.txt",
+            name: "C S Alpha Project.txt",
             icon: "/images/txt.png",
             kind: "file",
             fileType: "txt",
             position: "top-5 left-10",
             description: [
-              "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-              "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-              "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-              "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+              "CS-ALPHA is a cutting-edge AI assistant designed to support students at the University of Makeni (UNIMAK). Developed by Kai Foday and Abubakarr Sawanneh, this innovative tool is equipped with advanced knowledge and skills to facilitate learning and academic success.",
+              "Its primary purpose is to provide helpful and accurate information, guidance, and resources to students, making their, academic journey smoother and more efficient.", "CS-ALPHA offers a range of services, including research assistance, assignment help, and study tips.", "With its empathetic and friendly approach, CS-ALPHA aims to foster a supportive learning environment for UNIMAK students.",
             ],
           },
           {
             id: 2,
-            name: "nike.com",
+            name: "cs-alpha.com",
             icon: "/images/safari.png",
             kind: "file",
             fileType: "url",
-            href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+            href: "https://cs-al.netlify.app",
             position: "top-10 right-20",
           },
           {
             id: 4,
-            name: "nike.png",
+            name: "cs-alpha.png",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
             position: "top-52 right-80",
-            imageUrl: "/images/project-1.png",
+            imageUrl: "/images/cs-alpha.jpg",
           },
           {
             id: 5,
             name: "Design.fig",
-            icon: "/images/plain.png",
+            icon: "/images/figma.png",
             kind: "file",
             fileType: "fig",
-            href: "https://google.com",
+            href: "https://cs-al.netlify.app",
             position: "top-60 right-20",
           },
         ],
@@ -406,7 +412,7 @@ const navLinks = [
         kind: "file",
         fileType: "img",
         position: "top-28 right-72",
-        imageUrl: "/images/casual.jpg",
+        imageUrl: "/images/kai-4.png",
       },
       {
         id: 3,
@@ -445,7 +451,7 @@ const navLinks = [
     children: [
       {
         id: 1,
-        name: "Resume.pdf",
+        name: "Kai_Resume.pdf",
         icon: "/images/pdf.png",
         kind: "file",
         fileType: "pdf",
